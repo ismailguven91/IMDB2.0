@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="IMDB 2.0"
+            android:textAlignment="center"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="198dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="title"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/theTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="type"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/theType"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Director"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/theDirector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Year"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/theYear"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

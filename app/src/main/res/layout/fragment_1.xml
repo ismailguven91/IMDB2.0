@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Fragment1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="IMDB 2.0"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="IMDB 2.0"
+                android:textSize="50dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="sign in to be able to search for movies"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="username: abc | password: 123"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="center"
+            />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="198dp"
+                android:layout_height="245dp"
+                android:layout_weight="1"></ImageView>
+
+            <EditText
+                android:id="@+id/theUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:alpha="0.80"
+                android:ems="10"
+                android:fontFamily="sans-serif-smallcaps"
+                android:hint="enter username"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/thePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:alpha="0.80"
+                android:ems="10"
+                android:fontFamily="sans-serif-smallcaps"
+                android:hint="enter password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:id="@+id/wrongUserPass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/btnGet"
+                android:layout_width="148dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="20dip"
+                android:alpha="0.70"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
